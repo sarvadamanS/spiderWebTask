@@ -387,7 +387,13 @@ const SmallTable = () => {
                     <IconButton>
                       <RemoveRedEyeIcon
                         variant="outlined"
-                        sx={{ color: "rgba(255, 255, 255, 1)" }}
+                        sx={{
+                          color: "rgba(255, 255, 255, 1)",
+                          transition: "color 0.3s ease",
+                          "&:hover": {
+                            color: "rgba(209, 117, 182, 1)",
+                          },
+                        }}
                       />
                     </IconButton>
                   </TableCell>

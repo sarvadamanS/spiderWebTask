@@ -20,6 +20,7 @@ const Sidebar = () => {
           height: "80vh",
           width: "20vw",
           color: "rgba(209, 117, 182, 1)",
+          padding: "2px",
         }}
       >
         <TreeView
